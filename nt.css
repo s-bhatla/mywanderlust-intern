@@ -1,0 +1,14 @@
+.image-slider img{
+    margin-left: 1rem;
+}
+
+.image-slider .swiper-slide{
+    border-radius: 16px;
+}
+
+.subtext-gallery{
+    color: #ef7a9d;
+    font-weight:600;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
