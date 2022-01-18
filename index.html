@@ -144,6 +144,73 @@
               </div>
             </div>
           </div>
+          <div class="text-block">
+            <div class="row">
+              <div class="col-md-8">
+                <h4 class="mb-4">Inclusions</h4>
+                <ul class="list-unstyled text-muted">
+                  <li class="mb-1">
+                    <i
+                      class="fas fa-check-circle text-secondary w-1rem me-3 text-center"
+                    ></i
+                    ><span class="text-sm"
+                      >Transport from Delhi to Dehradun by comfortable AC
+                      sleeper bus(if opted for) and Dehradun to Pantwari by
+                      tempo traveller and back.</span
+                    >
+                  </li>
+                  <li class="mb-1">
+                    <i
+                      class="fas fa-check-circle text-secondary w-1rem me-3 text-center"
+                    ></i
+                    ><span class="text-sm"
+                      >Tents on sharing basis and other camping equipment.</span
+                    >
+                  </li>
+                  <li class="mb-1">
+                    <i
+                      class="fas fa-check-circle text-secondary w-1rem me-3 text-center"
+                    ></i
+                    ><span class="text-sm"
+                      >All veg meals starting from day 1 lunch to day 2
+                      lunch.</span
+                    >
+                  </li>
+                  <li class="mb-1">
+                    <i
+                      class="fas fa-check-circle text-secondary w-1rem me-3 text-center"
+                    ></i
+                    ><span class="text-sm"
+                      >Certified Trek leader, guides and forest entry
+                      charges.</span
+                    >
+                  </li>
+                  <li class="mb-1">
+                    <i
+                      class="fas fa-check-circle text-secondary w-1rem me-3 text-center"
+                    ></i
+                    ><span class="text-sm"
+                      >Porter and mule support to carry camping equipment.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+                <div class="col-md-4">
+                  <h4 class="mb-4">Exclusions</h4>
+                  <ul class="list-unstyled text-muted">
+                    <li class="mb-1">
+                      <i
+                        class="fas fa-times-circle text-secondary w-1rem me-3 text-center"
+                      ></i
+                      ><span class="text-sm"
+                        >5% GST on costing as per government regulations.</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              
+            </div>
+          </div>
           <p class="subtext-gallery">What to Expect</p>
           <h2>Gallery</h2>
           <section>
@@ -377,8 +444,48 @@
         </section>
       </div>
     </div>
+    <nav
+      class="navbar fixed-bottom navbar-light bg-dark box-shadow-dark px-0 nudge"
+      id="enquiry_navbar"
+    >
+      <div
+        class="d-flex justify-content-between1 justify-content-center align-items-center w-100 py-1 px-4"
+      >
+        <div class="row">
+          <div class="col-auto">
+            <a
+              id="enquiry_exp"
+              class="btn btn-outline-light rounded"
+              href="/"
+              onclick="showFaqs('bottom_nav')"
+            >
+              <i class="fa fa-comments" aria-hidden="true"></i>
+              Send Enquiry
+            </a>
+          </div>
+          <div class="col-auto">
+            <a
+              class="btn btn-info rounded"
+              href="/"
+              onclick="showBookingModal('bottom');"
+            >
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              Book Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- JavaScript files-->
+    <script>
+      function scrollFunction() {
+        document.getElementsByClassName("nudge")[0].style.visibility =
+          "visible"; //To hide the element.
+      }
+
+      window.onscroll = scrollFunction;
+    </script>
     <script>
       // ------------------------------------------------------- //
       //   Inject SVG Sprite -
