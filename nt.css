@@ -19,7 +19,59 @@
     visibility: hidden;
 }
 
+.nudge-row{
+    font-size: smaller;
+}
+
 .nudge-invis{
     transition: all 0.5s;
     bottom: -100px;
 }
+
+.center-exc{
+    background-color: aquamarine;
+    width: fit-content;
+    
+}
+
+.ie-card{
+    /* height: 55vh; */
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 2rem;
+    position:relative;
+    min-height: 57vh;
+}
+
+.exclusions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 80%;
+}
+
+.swiper-btn{
+    padding: 1rem;
+    border-radius: 16px;
+    color: rgb(27, 27, 27);
+    background-color: rgba(46, 46, 46, 0.432);
+}
+
+.buy-card{
+    margin-top: 2rem;
+}
+
+.nudge-btn{
+    width: max-content;
+    font-size: 0.7rem;
+
+}
+
+@media (max-width: 300px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .nudge-btn{
+        width: max-content;
+        font-size: 0.37rem;
+    }
+  }
